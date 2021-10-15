@@ -8,6 +8,8 @@ const hammerHead = ["Hammerhead", "Geometry Man", "Taylor",
 
 const troutNo = [37, 44, 29, 87, 56, 11, 34, 45];
 
+const frogNo = [1, 2, 4, 5, 9, 12, 16, 21, 24, 25, 36];
+
 let t4 = robots[0];
 console.log(t4);
 
@@ -131,3 +133,30 @@ if (robots[0] == "Hank-44"){
 }
 
 
+console.log(Math.sqrt(36));
+// 6
+console.log(Math.max(2, 37));
+// 37
+console.log(Math.pow(9, 2));
+// 81
+console.log('---------------------------------------------');
+console.log('---------------------------------------------');
+
+if (robots[2] == 'Mellon-Tech'){
+    for (let hh1 = 0; hh1 < frogNo.length; hh1++){
+        let frog1 = frogNo[hh1];
+        let exponent1 = Math.pow(frog1, 2);
+        console.log(exponent1);
+        // 1
+        // 4
+        // 16
+        // 25
+        // 81
+        // 144
+        // 256
+        // 441
+        // 576
+        // 625
+        // 1296
+    }
+}
