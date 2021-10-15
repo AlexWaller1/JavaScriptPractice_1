@@ -227,5 +227,18 @@ if (robots[2] == 'Mellon-Tech'){
     // Mellon-TechEggplant-Head
 }
 
+console.log('hello');
+
+if (typeof(robots[2] == String)){
+    // above code evaluates to true
+    console.log("what's up?");
+}
+
+if (typeof(frogNo[0] == Number)){
+    // above code evaluates to true
+    console.log('true');
+}
+
+
 
 
