@@ -160,3 +160,35 @@ if (robots[2] == 'Mellon-Tech'){
         // 1296
     }
 }
+
+
+if (robots[1] == 'Warren-21'){
+    for (let hh1 = 0; hh1 < frogNo.length; hh1++){
+        let frog1 = frogNo[hh1];
+        if (frog1 % Math.sqrt(frog1) == 0){
+            console.log(`${frog1} has a whole number for a square root.`);
+        }
+        else
+           console.log(`${frog1} does not have a whole number for a square root.`);
+    }
+}
+
+if (hammerHead[0] == 'Hammerhead'){
+    let max = hammerHead[0].length;
+    let shark3 = '';
+    // 10
+    console.log('Hello');
+    for (let shark1 = 0; shark1 < hammerHead.length; shark1++){
+        let shark2 = hammerHead[shark1].length;
+        if (shark2 >= max){
+            max = shark2;
+            shark3 = `${shark2} is the highest number of characters.`;
+            
+            
+        }
+    }
+    console.log(shark3);
+    // 16 is the highest number of characters
+}
+
+console.log('Hello');
