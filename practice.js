@@ -213,4 +213,19 @@ console.log(hammerHead.includes('Hammerhead'));
 // true
 console.log(hammerHead.includes('Mellon-Tech'));
 // false
+console.log(troutNo[0] == '1');
+// false
+console.log(frogNo[0] == '1');
+// true same value but not same data type
+console.log(frogNo[0] === '1');
+// false as it is not the same data type
+
+if (robots[2] == 'Mellon-Tech'){
+    let robo1 = robots[2];
+    robo1 = robo1.concat(robots[3]);
+    console.log(robo1);
+    // Mellon-TechEggplant-Head
+}
+
+
 
