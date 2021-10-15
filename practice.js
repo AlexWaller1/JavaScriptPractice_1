@@ -209,3 +209,8 @@ console.log(typeof(hammerHead[0]));
 // string
 console.log(hammerHead);
 // interesting output to console
+console.log(hammerHead.includes('Hammerhead'));
+// true
+console.log(hammerHead.includes('Mellon-Tech'));
+// false
+
