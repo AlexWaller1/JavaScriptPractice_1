@@ -191,4 +191,21 @@ if (hammerHead[0] == 'Hammerhead'){
     // 16 is the highest number of characters
 }
 
-console.log('Hello');
+console.log('Hi, Bodhi!');
+
+console.log(hammerHead[0].charAt(0));
+// H
+console.log(hammerHead[0].lastIndexOf('m'));
+// 3, last 'm' in 'Hammerhead'
+console.log(hammerHead[0].indexOf('m'));
+// 2, first 'm' in 'Hammerhead'
+console.log(hammerHead[0].includes('mm')); // boolean
+// true
+console.log(hammerHead[0].includes('head'));
+// true
+console.log(hammerHead[0].includes('shark'));
+// false
+console.log(typeof(hammerHead[0]));
+// string
+console.log(hammerHead);
+// interesting output to console
