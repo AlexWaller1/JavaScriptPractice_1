@@ -113,4 +113,21 @@ if (hammerHead[5] === "The Cosmic Trout"){
        console.log("No Fizz Buzz")
 }
 
+if (robots[0] == "Hank-44"){
+    for (let hh1 = 0; hh1 < troutNo.length; hh1++){
+        let trout1 = troutNo[hh1];
+        if (trout1 % 5 == 0 && trout1 % 3 == 0){
+            console.log(`${trout1} FizzBuzz`);
+        }
+        else if (trout1 % 5 == 0){
+            console.log(`${trout1} Fizz`);
+        }
+        else if (trout1 % 3 == 0){
+            console.log(`${trout1} Buzz`);
+        }
+        else
+           console.log(`${trout1} No FizzBuzz`);
+    }
+}
+
 
