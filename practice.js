@@ -6,6 +6,9 @@ const robots = ["Hank-44", "Warren-21", "Mellon-Tech",
 const hammerHead = ["Hammerhead", "Geometry Man", "Taylor", 
 "Harvey", "Wibaux", "The Cosmic Trout"];
 
+const crashBandicoot = ["Crash Bandicoot", "Cortex", "Ripper Roo",
+"Spyro", "Dingodile", "Tiny Tiger", "Crunch Bandicoot", "N. Ginn"];
+
 const troutNo = [37, 44, 29, 87, 56, 11, 34, 45];
 
 const frogNo = [1, 2, 4, 5, 9, 12, 16, 21, 24, 25, 36];
@@ -256,6 +259,28 @@ if (troutNo[1] == 44){
     let returnString = `The answer is ${answer}.`;
     console.log(returnString);
 }
+
+if (troutNo[0] == 37){
+    console.log("We're in the if statement");
+}
+
+if (crashBandicoot[0] == "Crash Bandicoot"){
+    let crash1 = crashBandicoot.length;
+    while(crash1 >= 0){
+        console.log(crashBandicoot[crash1]);
+        crash1--;
+        // N. Ginn
+        // Crunch Bandicoot
+        // Tiny Tiger
+        // Dingodile
+        // Spyro
+        // Ripper Roo
+        // Cortex
+        // Crash Bandicoot
+    }
+}
+
+
 
 
 
