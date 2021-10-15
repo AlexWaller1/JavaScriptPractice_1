@@ -92,6 +92,25 @@ if (hammerHead[4] == 'Wibaux'){
     r2 = r2.replace('-', '===');
     console.log(r2);
     // Mellon===Tech
+    r2 = r2.toUpperCase();
+    console.log(r2);
+    // MELLON===TECH
+    
+}
+
+if (hammerHead[5] === "The Cosmic Trout"){
+    hh1 = 35;
+    if (hh1 % 5 == 0 && hh1 % 3 == 0){
+        console.log("FizzBuzz");
+    }
+    else if (hh1 % 5 == 0){
+        console.log("Fizz");
+    }
+    else if (hh1 % 3 == 0){
+        console.log("Buzz");
+    }
+    else
+       console.log("No Fizz Buzz")
 }
 
 
