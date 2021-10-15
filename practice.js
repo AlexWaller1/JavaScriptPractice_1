@@ -239,6 +239,24 @@ if (typeof(frogNo[0] == Number)){
     console.log('true');
 }
 
+console.log(true == Boolean);
+// false
+console.log(true == true);
+// true
+console.log(true === true);
+// true
+
+if (troutNo[1] == 44){
+    let target = 24;
+    let answer = 0;
+    for (let hh1 = 0; hh1 < troutNo.length; hh1++){
+        answer = Math.max(troutNo[hh1], target);
+
+    }
+    let returnString = `The answer is ${answer}.`;
+    console.log(returnString);
+}
+
 
 
 
