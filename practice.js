@@ -357,6 +357,38 @@ console.log(cortex.carts.cart1);
 // Oxide Cruiser
 console.log(cortex.friends[3]);
 // Nitrous Oxide
+console.log(bandicoot.firstName, bandicoot.lastName);
+// Crash Bandicoot
+bandicoot.email = "crash.bandicoot@nitrocart.com";
+console.log(bandicoot.email);
+// crash.bandicoot@nitrocart.com
+
+const hammerHeadCharacters = [
+    {
+        name: 'Hammerhead',
+        species: 'Hammerhead Shark',
+        occupation: 'Pickerel Cola Space Truck Driver',
+        hasPickerelCola: true
+    },
+    {
+        name: 'Taylor',
+        species: 'Albatross',
+        occupation: 'Pickerel Cola Space Truck Driver',
+        hasPickerelCola: true
+    },
+    {
+        name: 'Wibaux',
+        species: 'Whitefish',
+        occupation: 'Hardin-37 Soldier',
+        hasPickerelCola: false
+    },
+    {
+        name: 'Harvey',
+        species: 'Beaver',
+        occupation: 'Hardin-37 Soldier',
+        hasPickerelCola: false
+    }
+]
 
 
 
