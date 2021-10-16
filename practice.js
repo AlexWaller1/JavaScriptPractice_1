@@ -279,6 +279,67 @@ if (crashBandicoot[0] == "Crash Bandicoot"){
         // Crash Bandicoot
     }
 }
+console.log('-------------------------------------');
+console.log('-------------------------------------');
+
+if (crashBandicoot[1] == 'Cortex'){
+    let crash1 = crashBandicoot.length;
+    do{
+        console.log(crashBandicoot[crash1]);
+        crash1--;
+    }while(crash1 >= 0);
+}
+
+if (crashBandicoot[2] == "Ripper Roo"){
+    for (let frog1 = 0; frog1 < frogNo.length; frog1++){
+        if (frogNo[frog1] % 2 == 0) console.log(frogNo[frog1], true);
+        else
+           console.log(frogNo[frog1], false);
+    }
+}
+
+// Highest Sum Less than Target
+// if (crashBandicoot[3] === "Spyro"){
+// let target = 59;
+// let sum = 0;
+// let answer = 37;
+// for (let crash1 = 0; crash1 < troutNo.length; crash1++){
+//     for (let crash2 = crash1 + 1; crash2 < troutNo.length; crash1++){
+//         sum = troutNo[crash1] + troutNo[crash2];
+//     }
+//     if (sum < target){
+//         answer = Math.max(sum, answer);
+         
+//     }
+   
+// }
+// console.log(`The highest possible sum less than ${target}
+//     is ${answer}.`);
+// }
+
+const bandicoot = {
+    firstName: "Crash",
+    lastName: "Bandicoot",
+    species: "Bandicoot",
+    interests: "Nitro Cart Racing",
+    personality: "Highly Enthusiastic",
+    rival: "Doctor Neo Cortex",
+    placeOfBirth: "Outback, Australia"
+}
+
+console.log(bandicoot);
+
+const cortex = {
+    firstName: "Neo",
+    lastName: "Cortex",
+    species: "Human",
+    interests: "Cutting Edge Science",
+    personality: "Devious and Engimatic",
+    rival: "Crash Bandicoot",
+    placeOfBirth: "Peoria, Illinois"
+}
+
+console.log(cortex);
 
 
 
