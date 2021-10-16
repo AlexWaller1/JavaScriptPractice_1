@@ -388,7 +388,25 @@ const hammerHeadCharacters = [
         occupation: 'Hardin-37 Soldier',
         hasPickerelCola: false
     }
-]
+];
+
+console.log(hammerHeadCharacters);
+
+const hammerHeadJSON = JSON.stringify(hammerHeadCharacters);
+console.log(hammerHeadJSON);
+
+console.log(hammerHeadCharacters[0].name);
+// Hammerhead
+
+if (robots[2] == 'Mellon-Tech'){
+    for(let robot of robots){
+        console.log(robot);
+        // Hank-44
+        // Warren-21
+        // Mellon-Tech
+        // Eggplant-Head
+    }
+}
 
 
 
