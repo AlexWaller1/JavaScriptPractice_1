@@ -336,10 +336,28 @@ const cortex = {
     interests: "Cutting Edge Science",
     personality: "Devious and Engimatic",
     rival: "Crash Bandicoot",
-    placeOfBirth: "Peoria, Illinois"
+    placeOfBirth: "Peoria, Illinois",
+    carts:{
+        cart1: "Oxide Cruiser",
+        cart2: "Dingo-Mobile"
+
+    },
+    friends: ["N. Ginn", "Dingodile", "Tiny Tiger", "Nitrous Oxide"]
 }
 
 console.log(cortex);
+
+console.log(bandicoot.species);
+// Bandicoot
+console.log(bandicoot.firstName);
+// Crash
+console.log(cortex.lastName);
+// Cortex
+console.log(cortex.carts.cart1);
+// Oxide Cruiser
+console.log(cortex.friends[3]);
+// Nitrous Oxide
+
 
 
 
