@@ -521,3 +521,17 @@ console.log(37 - 44);
 
 console.log(addNums2(44, 11));
 // 33
+
+const hiFriend = (friendName = 'Bodhi') => console.log(
+    `How's it going, ${friendName}!?`
+);
+
+hiFriend();
+// How's it going, Bodhi!?
+
+hiFriend('Beezer');
+// How's it going, Beezer!?
+
+hiFriend('Chipper');
+// How's it going Chipper!?
+
