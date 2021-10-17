@@ -16,3 +16,21 @@ console.log(divisibleBy3());
 
 console.log(divisibleBy3(3, 33));
 // There are 11 numbers between 3 and 33 divisible by 3.
+
+console.log('-----------------------------------------------');
+console.log('-------------------------------------------------');
+
+function factorialNumber(number1 = 5){
+    let product = 1;
+    let rStatement2 = ``;
+    for (let i = number1; i > 0; i--){
+        product = product * i;
+        rStatement2 = `${number1}! = ${product}`;
+    }
+    return rStatement2;
+}
+
+console.log(factorialNumber());
+// 5! = 120
+console.log(factorialNumber(9));
+// 9! = 362880
