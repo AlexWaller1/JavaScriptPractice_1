@@ -85,7 +85,7 @@ const hammerHeadCharacters = [
     {
         name: 'Harvey',
         species: 'Beaver',
-        occupation:'Hardin-37',
+        occupation:'Hardin-37 Soldier',
         hasPickerelCola: false
     }
 ];
@@ -197,5 +197,29 @@ if (hammerHead[1] == 'Geometry Man'){
     })
 }
 
+console.log(hammerHead[5]);
+// The Cosmic Trout
+
+if (hammerHead[5] == 'The Cosmic Trout'){
+    hammerHeadCharacters.forEach(function(shark2){
+        console.log(shark2.occupation);
+        // 2 Pickerel Cola Space Truck Driver
+        // 2 Hardin-37 Soldier
+    })
+}
+
+if (crashBandicoot[0] == 'Crash Bandicoot'){
+    bandicoot.friends.forEach(function(crash2){
+        console.log(crash2);
+        // Spyro
+        // Coco
+        // Shifty
+        // King Chicken
+    })
+}
+
 // forEach cannot return anything as anytime we try to assign it
 // to a variable to log to the console it comes back as undefined
+// returns objects 1 by 1
+
+// map
