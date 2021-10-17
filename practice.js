@@ -494,6 +494,20 @@ if (crashBandicoot[1] == 'Cortex'){
     }
 }
 
+function addNums(num1 = 3, num2 = 4) {
+    // 3 and 4 are default values in case no parameters are given
+    console.log(num1 + num2);
+}
+
+addNums(5, 4);
+// 9
+
+addNums(37, 44);
+// 81
+
+addNums();
+// 7
+
 
 
 
