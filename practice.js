@@ -473,5 +473,16 @@ const sharkName = hammerHeadCharacters.filter(function(shark){
 console.log(sharkName);
 // ["Wibaux", "Harvey"]
 
+console.log(crashBandicoot[1]);
+// Cortex
+
+// ternary
+if (crashBandicoot[1] == 'Cortex'){
+    const number2 = frogNo[0] > 10 ? 'red' : 'blue';
+    console.log(number2);
+    // evaluated to false so 'blue' is printed to console
+}
+
+
 
 
