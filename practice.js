@@ -420,6 +420,16 @@ if (robots[3] == 'Eggplant-Head'){
     }
 }
 
+if (crashBandicoot[0] == "Crash Bandicoot"){
+    for (shark of hammerHeadCharacters){
+        console.log(shark.occupation);
+        // Pickerel Cola Space Truck Driver
+        // Pickerel Cola Space Truck Driver
+        // Hardin-37 Soldier
+        // Hardin-37 Soldier
+    }
+}
+
 console.log('------------------------------------');
 
 // forEach, map, filter
@@ -445,7 +455,23 @@ console.log(hammerHeadJobs);
 // Truck Driver", "Hardin-37 Soldier", "Hardin-37 Soldier"]
 
 
+// filter
+const hasPC = hammerHeadCharacters.filter(function(shark){
+      return shark.hasPickerelCola === true;
+      // Hammerhead
+      // Taylor
+});
 
+console.log(hasPC);
+
+const sharkName = hammerHeadCharacters.filter(function(shark){
+    return shark.hasPickerelCola === false;
+}).map(function(shark2){
+    return shark2.name;
+})
+
+console.log(sharkName);
+// ["Wibaux", "Harvey"]
 
 
 
