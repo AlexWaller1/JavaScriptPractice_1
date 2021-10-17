@@ -144,3 +144,31 @@ if (crashBandicoot[3] === 'Spyro'){
         // King Chicken
     }
 }
+
+// forEach
+if (hammerHead[0] === 'Hammerhead'){
+    hammerHeadCharacters.forEach(function(shark){
+        console.log(shark.hasPickerelCola)
+        // 2 true
+        // 2 false
+    })
+}
+
+if (hammerHead[1] == 'Taylor'){
+    hammerHead.forEach(function(shark){
+        if (shark == 3){
+            console.log(shark);
+            // not outputting anything to console
+        }
+    })
+}
+
+console.log(hammerHead[4]);
+// Wibaux
+
+if (hammerHead[4] == 'Wibaux'){
+    hammerHead.forEach(function(shark){
+        console.log(shark == 'Wibaux');
+        // false
+    })
+}
