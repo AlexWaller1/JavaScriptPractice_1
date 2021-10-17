@@ -535,3 +535,14 @@ hiFriend('Beezer');
 hiFriend('Chipper');
 // How's it going Chipper!?
 
+
+const whatsUp = friend1 => `What's up, ${friend1}!?`
+
+console.log(whatsUp('Bodhi'));
+// What's up, Bodhi!?
+
+console.log(whatsUp('Chipper'));
+// What's up, Chipper!?
+
+console.log(whatsUp('Beezer'));
+// Waht's up, Beezer!?
