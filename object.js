@@ -223,3 +223,26 @@ if (crashBandicoot[0] == 'Crash Bandicoot'){
 // returns objects 1 by 1
 
 // map
+
+if (hammerHead[0] == 'Hammerhead'){
+    let shark1 = hammerHeadCharacters.map(function(shark2){
+        // map function has to be applied to an array
+        return shark2.name;
+        // returns an array instead of separate objects
+    })
+    console.log(shark1);
+    // ["Hammerhead", "Taylor", "Wibaux", "Harvey"]
+
+}
+
+if(crashBandicoot[0] == 'Crash Bandicoot'){
+    let crash1 = bandicoot.friends.map(function(crash2){
+        // map function has to be applied to an array
+        return crash2
+        // returns an array instead of separate objects
+    })
+    console.log(crash1);
+    // ["Spyro", "Coco", "Shifty", "King Chicken"]
+}
+    
+
