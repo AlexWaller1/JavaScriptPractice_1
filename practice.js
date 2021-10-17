@@ -408,6 +408,28 @@ if (robots[2] == 'Mellon-Tech'){
     }
 }
 
+console.log('---------------------------');
+
+if (robots[3] == 'Eggplant-Head'){
+    for (shark of hammerHeadCharacters){
+        console.log(shark.name);
+        // Hammerhead
+        // Taylor
+        // Wibaux
+        // Harvey
+    }
+}
+
+console.log('------------------------------------');
+
+// forEach, map, filter
+hammerHeadCharacters.forEach(function(shark) {
+       console.log(shark.species);
+       // Hammerhead Shark
+       // Albatross
+       // Whitefish
+       // Beaver
+});
 
 
 
