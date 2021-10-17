@@ -172,3 +172,30 @@ if (hammerHead[4] == 'Wibaux'){
         // false
     })
 }
+
+const tomato1 = hammerHead.forEach(function(shark1){
+    return shark1;
+})
+
+console.log(tomato1);
+// undefined
+
+const tomato2 = hammerHeadCharacters.forEach(function(shark3){
+    return shark3.species;
+})
+
+console.log(tomato2);
+// undefined
+
+if (hammerHead[1] == 'Geometry Man'){
+    hammerHeadCharacters.forEach(function(shark1){
+        console.log(shark1.species);
+        // Hammerhead Shark
+        // Albatross
+        // Whitefish
+        // Beaver
+    })
+}
+
+// forEach cannot return anything as anytime we try to assign it
+// to a variable to log to the console it comes back as undefined
