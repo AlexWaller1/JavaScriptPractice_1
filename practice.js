@@ -423,6 +423,9 @@ if (robots[3] == 'Eggplant-Head'){
 console.log('------------------------------------');
 
 // forEach, map, filter
+
+
+// forEach
 hammerHeadCharacters.forEach(function(shark) {
        console.log(shark.species);
        // Hammerhead Shark
@@ -430,6 +433,16 @@ hammerHeadCharacters.forEach(function(shark) {
        // Whitefish
        // Beaver
 });
+
+// map
+const hammerHeadJobs = hammerHeadCharacters.map(function(shark) {
+    return shark.occupation;
+});
+
+console.log(hammerHeadJobs);
+// returns an array
+// ["Pickerel Cola Space Truck Driver", "Pickerel Cola Space
+// Truck Driver", "Hardin-37 Soldier", "Hardin-37 Soldier"]
 
 
 
