@@ -509,5 +509,15 @@ addNums();
 // 7
 
 
+function addNums2(num1 = 37, num2 = 44){
+    return num1 - num2;
+}
 
+console.log(addNums2());
+// - 7
 
+console.log(37 - 44);
+// -7
+
+console.log(addNums2(44, 11));
+// 33
