@@ -62,3 +62,85 @@ const cortex = {
 
 console.log('-----------------------------------------------------');
 console.log(cortex);
+
+const hammerHeadCharacters = [
+    {
+        name: 'Hammerhead',
+        species: 'Hammerhead Shark',
+        occupation: 'Pickerel Cola Space Truck Driver',
+        hasPickerelCola: true
+    },
+    {
+        name: 'Taylor',
+        species: 'Albatross',
+        occupation: 'Pickerel Cola Space Truck Driver',
+        hasPickerelCola: true
+    },
+    {
+        name: 'Wibaux',
+        species: 'Whitefish',
+        occupation: 'Hardin-37 Soldier',
+        hasPickerelCola: false
+    },
+    {
+        name: 'Harvey',
+        species: 'Beaver',
+        occupation:'Hardin-37',
+        hasPickerelCola: false
+    }
+];
+
+console.log('--------------------------------------------------');
+console.log(hammerHeadCharacters);
+console.log('--------------------------------------------------');
+
+if (robots[2] == 'Mellon-Tech'){
+    for (robot of robots){
+        console.log(robot);
+        // Hank-44
+        // Warren-21
+        // Mellon-Tech
+        // Eggplant-Head
+    }
+}
+
+console.log('---------------------------------------------------');
+
+if (crashBandicoot[0] === 'Crash Bandicoot'){
+    for (crash1 of crashBandicoot){
+        console.log(crash1);
+        // Crash Bandicoot
+        // Cortex
+        // Ripper Roo
+        // Spyro
+        // Dingodile
+        // Tiny Tiger
+        // Crunch Bandicoot
+        // N. Ginn
+    }
+}
+
+if (crashBandicoot[1] == 'Cortex'){
+  //  for (crash1 of bandicoot){
+      //  console.log(crash1.carts.cart1);
+      // object is not iterable
+    }
+// }
+
+if (crashBandicoot[2] == 'Ripper Roo'){
+    for (shark2 of hammerHeadCharacters){
+        console.log(shark2.hasPickerelCola);
+        // 2 true
+        // 2 false
+    }
+}
+
+if (crashBandicoot[3] === 'Spyro'){
+    for (crash2 of bandicoot.friends){
+        console.log(crash2);
+        // Spyro
+        // Coco
+        // Shifty
+        // King Chicken
+    }
+}
