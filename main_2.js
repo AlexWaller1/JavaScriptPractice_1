@@ -34,3 +34,5 @@ console.log(factorialNumber());
 // 5! = 120
 console.log(factorialNumber(9));
 // 9! = 362880
+console.log(factorialNumber(4));
+// 4! = 24
