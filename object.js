@@ -466,3 +466,32 @@ if (crashBandicoot[5] == 'Tiny Tiger'){
     // ['Spyro']
 
 }
+
+
+
+console.log(hammerHeadCharacters);
+
+if (hammerHead[5] == 'The Cosmic Trout'){
+    let shark1 = hammerHeadCharacters.filter(function(shark2){
+        return shark2.occupation == 'Pickerel Cola Space Truck Driver';
+    }).map(function(shark3){
+        return shark3.name;
+    })
+    console.log(shark1);
+    // ['Hammerhead', 'Taylor']
+
+}
+
+console.log(hammerHead[3]);
+// Harvey
+
+if (hammerHead[3] == 'Harvey'){
+    let fish1 = hammerHeadCharacters.filter(function(fish2){
+        return fish2.species == 'Whitefish';
+
+    }).map(function(fish3){
+        return fish3.species;
+    })
+    console.log(fish1);
+    // ['Whitefish']
+}
