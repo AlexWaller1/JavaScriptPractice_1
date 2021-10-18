@@ -495,3 +495,21 @@ if (hammerHead[3] == 'Harvey'){
     console.log(fish1);
     // ['Whitefish']
 }
+
+if (robots[1] == 'Warren-21'){
+    hammerHeadCharacters.filter(function(shark1){
+        console.log(shark1.name == 'Hammerhead');
+        // returned 1 true and 3 false
+
+    });
+}
+
+if (robots[0] == 'Hank-44'){
+   let shark1 = hammerHeadCharacters.filter(function(shark2){
+       return shark2.hasPickerelCola === true;
+   }).map(function(shark3){
+       return shark3.name;
+   });
+   console.log(shark1);
+   // ['Hammerhead', 'Taylor']
+}
