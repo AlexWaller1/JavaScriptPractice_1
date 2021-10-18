@@ -599,6 +599,7 @@ if (hammerHead[0] == 'Hammerhead'){
 if (hammerHead[1] == 'Geometry Man'){
     const hh1 = hammerHead[0] == 'Hammerhead' ? 'This is Hammerhead' : 'This is not Hammerhead';
     console.log(hh1);
+    // This is Hammerhead
 
     const hh2 = hammerHead[1] == 'Geometry Man' ? 'yes GM' : 'No GM';
     console.log(hh2);
@@ -662,3 +663,80 @@ console.log(troutNo[0] === 37);
 
 console.log(troutNo[0] === '37');
 // false
+
+if (robots[2] == 'Mellon-Tech'){
+    let r1 = robots[2] == 'Mellon-Tech' ? true : false;
+    console.log(r1);
+    // true
+    r1 = robots[0] == 'Hank-44' ? true : false;
+    console.log(r1);
+    // true
+    r1 = robots[1] == 'Warren-21' ? true : false;
+    // true
+    r1 = robots[1];
+    switch(r1){
+        case 'Hank-44':
+            console.log('Nice curling, Hank-44!');
+            break;
+        case 'Warren-21':
+            console.log('Great Brisket making, Warren-21!');
+            break;
+            // Great Brisket making, Warren-21!
+    }
+}
+
+console.log(typeof(hammerHead[0]));
+// string
+
+if (robots[1] == 'Warren-21'){
+    let hh1 = typeof(hammerHead[0]) == String ? true : false;
+    console.log(hh1);
+    // false!?
+
+    let hh2 = hammerHead[0] == 'Hammerhead' ? true : false;
+    console.log(hh2);
+    // true
+}
+
+console.log(frogNo[4]);
+// 9
+console.log(frogNo[4] == '9');
+// true
+
+if (frogNo[4] == '9'){
+    for (let frog1 = 0; frog1 < frogNo.length; frog1++){
+        let frog2 = frogNo[frog1];
+        console.log(frog2);
+        switch(frog2){
+            case frog2 % 2 == 0:
+                console.log(`${frog2} is a even number.`);
+                // doesn't log
+                break;
+            case frog2 % 2 != 0:
+                console.log(`${frog2} is an odd number.`);
+                // doesn't log
+            case 1:
+                console.log(`Hello Moto`);
+                // Hello Moto
+            case 36:
+                console.log(`36 is awesome`);
+                // 36 is awesome
+        }
+    }
+}
+
+function printString(string1 = 'Bodhi!'){
+    console.log(string1);
+}
+
+printString();
+// Bodhi!
+
+printString('Lake Cushetunk');
+// Lake Cushetunk
+
+printString('Big Carp live in Lake Cushetunk');
+// Big Car live in Lake Cushetunk
+
+
+
