@@ -627,5 +627,38 @@ if (hammerHead[2] == 'Taylor'){
                 // You're Awesome!
         }
     }
+
 }
 
+if (robots.length == '4'){
+    for (let r1 = 0; r1 < robots.length; r1++){
+        let robot1 = robots[r1];
+        switch(robot1){
+            case 'Hank-44':
+                console.log('Hi, Hank-44!');
+                break;
+            case 'Warren-21':
+                console.log('Hi, Warren-21!');
+                break;
+            case 'Mellon-Tech':
+                console.log('Hi, Mellon-Tech!');
+                break;
+            case 'Eggplant-Head':
+                console.log('Hi, Eggplant-Head!');
+                break;
+        }
+    }
+
+}
+
+console.log(troutNo[0]);
+// 37
+
+console.log(troutNo[0] == '37');
+// true
+
+console.log(troutNo[0] === 37);
+// true
+
+console.log(troutNo[0] === '37');
+// false
