@@ -365,3 +365,33 @@ if (robots[2] == 'Mellon-Tech'){
     // ['Wibaux']
 
 }
+
+if (robots[3] == 'Eggplant-Head'){
+    let robot1 = robots.filter(function(robot2){
+        return robot2 == 'Mellon-Tech';
+    })
+    console.log(robot1);
+}
+
+if (hammerHead[0] == 'Hammerhead'){
+    let shark1 = hammerHeadCharacters.filter(function(shark2){
+        return shark2.name == 'Wibaux';
+    }).map(function(shark3){
+        return shark3.name;
+    });
+    console.log(shark1);
+    // ['Wibaux']
+}
+
+console.log(hammerHead[4]);
+// Wibaux
+
+if (hammerHead[4] == 'Wibaux'){
+    let shark1 = hammerHeadCharacters.filter(function(shark2){
+        return shark2.occupation == 'Hardin-37 Soldier';
+    }).map(function(shark3){
+        return shark3.name;
+    });
+    console.log(shark1);
+    // ['Wibaux', 'Harvey']
+}
