@@ -567,3 +567,65 @@ if (bandicoot.friends[3] == 'King Chicken'){
         // King Chicken
     })
 }
+
+if (bandicoot.friends[2] == 'Shifty'){
+    let crash1 = bandicoot.friends.map(function(crash2){
+        return crash2;
+    })
+    console.log(crash1);
+    // ['Spyro', 'Coco', 'Shifty', 'King Chicken']
+}
+
+if (hammerHead[0] == 'Hammerhead'){
+    const num2 = frogNo[3] > 10 ? 'red' : 'blue';
+    console.log(num2);
+    // blue
+    // evaluated to false so 'blue' is printed to the console
+    switch(num2) {
+        case 'red':
+            console.log('color is red');
+            break;
+        case 'blue':
+            console.log('color is blue');
+            break;
+        default:
+            console.log('color is not red or blue');
+            break;
+            // color is blue
+    }
+
+}
+
+if (hammerHead[1] == 'Geometry Man'){
+    const hh1 = hammerHead[0] == 'Hammerhead' ? 'This is Hammerhead' : 'This is not Hammerhead';
+    console.log(hh1);
+
+    const hh2 = hammerHead[1] == 'Geometry Man' ? 'yes GM' : 'No GM';
+    console.log(hh2);
+    // yes GM
+
+}
+
+if (hammerHead[2] == 'Taylor'){
+    for (let hh1 = 0; hh1 < hammerHead.length; hh1++){
+        let shark1 = hammerHead[hh1];
+        switch(shark1){
+            case 'Hammerhead':
+                console.log('Hi, Hammerhead!');
+                break;
+            case 'Wibaux':
+                console.log('Hi, Wibaux!');
+                break;
+            default:
+                console.log("You're Awesome!");
+                break;
+                // Hi, Hammerhead!
+                // You're Awesome!
+                // You're Awesome!
+                // You're Awesome!
+                // Hi, Wibaux!
+                // You're Awesome!
+        }
+    }
+}
+
