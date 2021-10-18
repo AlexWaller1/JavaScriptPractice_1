@@ -395,3 +395,51 @@ if (hammerHead[4] == 'Wibaux'){
     console.log(shark1);
     // ['Wibaux', 'Harvey']
 }
+
+if (crashBandicoot[1] == 'Cortex'){
+    robots.forEach(function(robot1){
+       console.log(robot1);
+       // Hank-44
+       // Warren-21
+       // Mellon-Tech
+       // Eggplant-Head
+    })
+}
+
+console.log(crashBandicoot[3]);
+// Spyro
+
+if (crashBandicoot[3] == 'Spyro'){
+    robots.forEach(function(robot1){
+        if (robot1 == 'Mellon-Tech'){
+            console.log(robot1);
+            // Mellon-Tech
+        }
+    })
+}
+
+console.log(crashBandicoot[4]);
+// Dingodile
+
+if (crashBandicoot[4] == 'Dingodile'){
+    crashBandicoot.map(function(crash1){
+        console.log(crash1);
+        // Crash Bandicoot
+        // Cortex
+        // Ripper Roo
+        // Spyro
+        // Dingodile
+        // Tiny Tiger
+        // Crunch Bandicoot
+        // N. Ginn
+
+    });
+}
+
+if (crashBandicoot[4] == 'Dingodile'){
+    let crash1 = crashBandicoot.map(function(crash2){
+        return crash2;
+    })
+    console.log(crash1);
+    // returns an array of the Crash Bandicoot characters
+}
