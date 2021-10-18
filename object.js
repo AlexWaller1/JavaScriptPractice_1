@@ -513,3 +513,57 @@ if (robots[0] == 'Hank-44'){
    console.log(shark1);
    // ['Hammerhead', 'Taylor']
 }
+
+console.log(cortex.friends);
+// N. Ginn
+// Dingodile
+// Tiny Tiger
+// Nitrous Oxide
+
+if (cortex.friends[3] == 'Nitrous Oxide'){
+     hammerHeadCharacters.map(function(shark2){
+         console.log(shark2);
+
+    })
+}
+
+if (cortex.friends[1] == 'Dingodile'){
+    let shark1 = hammerHeadCharacters.filter(function(shark2){
+        return shark2.name == 'Taylor';
+    }).map(function(shark3){
+        return shark3.name;
+    })
+    console.log(shark1);
+    // ['Taylor']
+}
+
+console.log(cortex.friends[2]);
+// Tiny Tiger
+
+if (cortex.friends[2] == 'Tiny Tiger'){
+    let tiny1 = cortex.friends.filter(function(tiny2){
+        return tiny2 == 'Tiny Tiger';
+    }).map(function(tiny3){
+        return tiny3;
+    });
+    console.log(tiny1);
+    // ['Tiny Tiger']
+}
+
+console.log('hello');
+
+console.log(bandicoot.friends);
+// ['Spyro', 'Coco', 'Shifty', 'King Chicken']
+
+console.log(bandicoot.friends[3]);
+// King Chicken
+
+if (bandicoot.friends[3] == 'King Chicken'){
+    bandicoot.friends.map(function(chicken1){
+        console.log(chicken1);
+        // Spyro
+        // Coco
+        // Shifty
+        // King Chicken
+    })
+}
