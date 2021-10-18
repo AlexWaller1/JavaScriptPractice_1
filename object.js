@@ -245,4 +245,28 @@ if(crashBandicoot[0] == 'Crash Bandicoot'){
     // ["Spyro", "Coco", "Shifty", "King Chicken"]
 }
     
+if (crashBandicoot[1] == 'Cortex'){
+    let hammer1 = hammerHeadCharacters.map(function(shark1){
+        return shark1.occupation;
+        // returns an array
+    })
+    console.log(hammer1);
+}
+// ["Pickerel Cola Space Truck Driver", "Pickerel Cola Space Truck Driver"
+//  "Hardin-37 Soldier", "Hardin-37 Soldier"]
 
+console.log(crashBandicoot[2]);
+// Ripper Roo
+
+if (crashBandicoot[2] == 'Ripper Roo'){
+    hammerHeadCharacters.forEach(function(shark1){
+        console.log(shark1.occupation);
+        // 2 Pickerel Cola Space Truck Driver
+        // 2 Hardin 37 Soldier
+        console.log(shark1.name);
+        // Hammerhead
+        // Taylor
+        // Wibaux
+        // Harvey
+    });
+}
