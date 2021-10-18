@@ -738,5 +738,58 @@ printString('Lake Cushetunk');
 printString('Big Carp live in Lake Cushetunk');
 // Big Car live in Lake Cushetunk
 
+function powerOf2(num = 2){
+    console.log(Math.pow(num, 2));
+}
+
+powerOf2();
+// 4
+
+powerOf2(2);
+// 4
+
+powerOf2(3);
+// 9
+
+powerOf2(21);
+// 441
+
+powerOf2(37);
+// 1369
+
+function squareRoot(num = 9){
+    let sq1 = Math.sqrt(num);
+    console.log(`The square root of ${num} is ${sq1}.`);
+}
+
+squareRoot();
+// The square root of 9 is 3.
+
+squareRoot(21);
+// The square root of 21 is 4.583.
+
+squareRoot(36);
+// The square root of 36 is 6.
+
+let  product1 = (num1 = 9, num2 = 10) => num1 * num2;
+
+console.log(product1());
+// 90
+console.log(product1(3, 4));
+// 12
+console.log(product1(5, 6));
+// 30
+console.log(product1(7, 6));
+// 42
+
+let string1 = () => 'JavaScript is Awesome!';
+// anonymous function
+
+console.log(string1());
+// JavaScript is Awesome!
+
+
+
+
 
 
