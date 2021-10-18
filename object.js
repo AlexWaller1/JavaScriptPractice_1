@@ -270,3 +270,50 @@ if (crashBandicoot[2] == 'Ripper Roo'){
         // Harvey
     });
 }
+
+if (crashBandicoot[1] == 'Cortex'){
+    cortex.friends.forEach(function(cortex1){
+        console.log(cortex1);
+        // N. Ginn
+        // Dingodile
+        // Tiny Tiger
+        // Nitrous Oxide
+    })
+}
+
+if (cortex.friends[3] == 'Nitrous Oxide'){
+    let cortex2 = cortex.friends.map(function(cortex3){
+        return cortex3;
+    });
+    console.log(cortex2);
+    // ["N. Ginn", "Dingodile", "Tiny Tiger", "Nitrous Oxide"]
+}
+
+console.log(cortex.friends[2]);
+// Tiny Tiger
+
+if (cortex.friends[2] == 'Tiny Tiger'){
+     frogNo.map(function(frog1){
+         console.log(frog1);
+         // 1
+         // 2
+         // 4
+         // 5
+         // 9
+         // 12
+         // 16
+         // 21
+         // 24
+         // 25
+         // 36
+    })
+}
+
+if (cortex.friends[1] == 'Dingodile'){
+    let dingo1 = cortex.friends.forEach(function(dingo2){
+        return dingo2;
+    })
+    console.log(dingo1);
+    // undefined
+    // forEach comes backas undefined when assigned to a variable
+}
