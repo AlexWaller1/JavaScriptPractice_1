@@ -443,3 +443,26 @@ if (crashBandicoot[4] == 'Dingodile'){
     console.log(crash1);
     // returns an array of the Crash Bandicoot characters
 }
+
+if (crashBandicoot[0] == 'Crash Bandicoot'){
+    let crash1 = crashBandicoot.forEach(function(crash2){
+        return crash2;
+    });
+    console.log(crash1);
+    // when we assign forEach operation to a variable
+    // it comes back as undefined to the console
+}
+
+console.log(crashBandicoot[5]);
+// Tiny Tiger
+
+if (crashBandicoot[5] == 'Tiny Tiger'){
+    let tiny1 = bandicoot.friends.filter(function(tiny2){
+        if (tiny2 == 'Spyro'){
+            return tiny2;
+        }
+    })
+    console.log(tiny1);
+    // ['Spyro']
+
+}
