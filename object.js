@@ -317,3 +317,51 @@ if (cortex.friends[1] == 'Dingodile'){
     // undefined
     // forEach comes backas undefined when assigned to a variable
 }
+
+console.log(troutNo[0]);
+// 37
+
+if (troutNo[0] === 37){
+    let sharkName = hammerHeadCharacters.filter(function(shark1){
+        return shark1.name === 'Hammerhead';
+    }).map(function(shark2){
+        return shark2.name;
+    })
+    console.log(sharkName);
+    // ['Hammerhead']
+}
+
+console.log(troutNo[1]);
+// 44
+
+if (troutNo[1] == '44'){
+    let crash1 = crashBandicoot.filter(function(crash2){
+        return crash2 === 'Crash Bandicoot';
+    });
+    console.log(crash1);
+    // ['Crash Bandicoot']
+    // filter great for isolating certain elements
+}
+
+console.log(troutNo[2]);
+// 29
+
+if (troutNo[2] === 29){
+    let robot1 = robots.filter(function(robot2){
+        return robot2 === 'Mellon-Tech' || 'Hank-44';
+        // For some reason this returns all of the robots 
+        // of the robots array
+    })
+    console.log(robot1);
+}
+
+if (robots[2] == 'Mellon-Tech'){
+    let shark1 = hammerHeadCharacters.filter(function(shark2){
+        return shark2.name === 'Wibaux';
+    }).map(function(shark3){
+        return shark3.name;
+    })
+    console.log(shark1);
+    // ['Wibaux']
+
+}
