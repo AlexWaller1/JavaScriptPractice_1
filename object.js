@@ -148,7 +148,7 @@ const robotCharacters = [
     {
         name: 'Eggplant-Head',
         model: 'Distortion-Wave 2029',
-        paintColor: 'Light Blue and Yellow',
+        paintColor: 'Light Blue and Orange',
         city: 'Bridgewater, New Jersey'
     }
 ]
@@ -1112,6 +1112,61 @@ longestCommonPrefix(emptyArray);
 // is empty.
 longestCommonPrefix(robots);
 // no common prefix
+
+if (robotCharacters[1].paintColor == 'Gray'){
+    let robot1 = robotCharacters.filter(function(robot2){
+        return robot2.city == 'Bridgewater, New Jersey';
+    }).map(function(robot3){
+        return robot3.name;
+    })
+    console.log(robot1);
+    // ['Mellon-Tech', 'Eggplant-Head']
+}
+
+console.log(robotCharacters[3].paintColor);
+// Light Blue and Orange
+
+if (robotCharacters[3].paintColor == 'Light Blue and Orange'){
+    let string1 = 'racecar'
+    let string2 = 0;
+    // first index of string
+    let string3 = string1.length - 1;
+    // last index of string
+    for (; string2 < string3; string2++, string3--){
+        if (string1.charAt(string2++) != string1.charAt(string3--)){
+            console.log(`${string1} is not a palindrome.`);
+        }
+        else
+            console.log(`${string1} is a palindrome`);
+    }
+    // racecare is a palindrome
+}
+
+function isPalindrome(stringParam =''){
+    stringParam = stringParam.toLowerCase();
+    index1 = 0;
+    // first index of string
+    index2 = stringParam.length - 1;
+    // last index of string
+    for (; index1 < index2; index1++, index2--){
+        if (stringParam.charAt(index1++) != stringParam.charAt(index2--)){
+            console.log(`${stringParam} is not palindrome.`);
+        }
+        else
+            console.log(`${stringParam} is a palindrome.`);
+    }
+}
+
+isPalindrome('kayak');
+// kayak is a palindrome
+isPalindrome('Bodhi');
+// Bodhi is not a palindrome
+isPalindrome('Kayak');
+// kayak is a palindrome
+isPalindrome('ribbon');
+// ribbon is not a palindrome
+// ribbon is a palindrome
+// will have to look into this
 
 
 
