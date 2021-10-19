@@ -887,6 +887,59 @@ console.log(hammerHeadCharacters[0]);
 
 console.log(robotCharacters);
 
+if (robotCharacters[0].name == 'Hank-44'){
+    let robot1 = robotCharacters.filter(function(robot2){
+        return robot2.paintColor == 'Gray';
+    }).map(function(robot3){
+        return robot3.name;
+    })
+    console.log(robot1);
+    // ['Hank-44', 'Warren-21']
+
+}
+
+if (robotCharacters[2].paintColor == "Yellow and Green"){
+    let robot1 = robotCharacters.filter(function(robot2){
+        return robot2.city == 'Bridgewater, New Jersey';
+    }).map(function(robot3){
+        return robot3.name;
+    })
+    console.log(robot1);
+    // ['Mellon-Tech', 'Eggplant-Head']
+}
+
+function roboGreeting(string1 = 'Robo-Tron'){
+    switch(string1){
+        case 'Hank-44':
+            console.log(`Hi, ${string1} ...1`);
+            break;
+        case 'Warren-21':
+            console.log(`Hi, ${string1} ...2`);
+            break;
+        case 'Mellon-Tech':
+            console.log(`Hi, ${string1} ...3`);
+            break;
+        case 'Eggplant-Head':
+            console.log(`Hi, ${string1} ...4`)
+            break;
+        default:
+            console.log(`Hi, ${string1} ...5`)
+            break;
+            
+    }
+}
+
+roboGreeting();
+// Hi, Robo-Tron ...5
+roboGreeting('Hank-44');
+// Hi, Hank-44 ...1
+roboGreeting('Warren-21');
+// Hi, Warren-21 ...2
+roboGreeting('Mellon-Tech');
+// Hi, Mellon-Tech ...3
+roboGreeting('Eggplant-Head');
+// Hi, Eggplant-Head ...4
+
 
 
 
