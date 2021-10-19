@@ -120,6 +120,35 @@ if (crashBandicoot[0] === 'Crash Bandicoot'){
     }
 }
 
+console.log('---------------------------------------------------');
+
+const robotCharacters = [
+    {
+        name: 'Hank-44',
+        model: 'CurlerTron-4000',
+        paintColor: 'Gray',
+        city: 'Nouvelle Milwaukee, Wisconsin'
+    },
+    {
+        name: 'Warren-21',
+        model: 'Bend-O-Matic 2100',
+        paintColor: 'Gray',
+        city: 'Nouvelle Milwaukee, Wisconsin'
+    },
+    {
+        name: 'Mellon-Tech',
+        model: 'Fuzz-Borg 7600',
+        paintColor: 'Yellow and Green',
+        city: 'Bridgewater, New Jersey'
+    },
+    {
+        name: 'Eggplant-Head',
+        model: 'Distortion-Wave 2029',
+        paintColor: 'Light Blue and Yellow',
+        city: 'Bridgewater, New Jersey'
+    }
+]
+
 if (crashBandicoot[1] == 'Cortex'){
   //  for (crash1 of bandicoot){
       //  console.log(crash1.carts.cart1);
@@ -854,6 +883,9 @@ console.log(hammerHeadCharacters[1].name == 'Hammerhead');
 // false
 console.log(hammerHeadCharacters[0].name == 'Hammerhead');
 // true
+console.log(hammerHeadCharacters[0]);
+
+console.log(robotCharacters);
 
 
 
