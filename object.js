@@ -1171,6 +1171,28 @@ isPalindrome('RoGue');
 // rogue is not a palindrome
 isPalindrome('timber');
 
+if (robotCharacters[2].paintColor == 'Yellow and Green'){
+    let hh1 = 0;
+    while (hh1 < robotCharacters.length){
+        console.log(robotCharacters[hh1].model);
+        hh1++;
+    }
+    // CurlerTron-4000
+    // Bend-O-Matic 2100
+    // Fuzz-Borg 7600
+    // Distortion-Wave 2029
+}
+
+if (robotCharacters[3].paintColor == 'Light Blue and Orange'){
+    let hh1 = robotCharacters.length - 1;
+    do{
+        console.log(robotCharacters[hh1].paintColor);
+        hh1--;
+    }while(hh1 >= 0);
+    // Light Blue and Orange
+    // Yelloe and Green
+    // 2 Gray
+}
 
 
 
