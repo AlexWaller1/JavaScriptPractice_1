@@ -788,6 +788,73 @@ let string1 = () => 'JavaScript is Awesome!';
 console.log(string1());
 // JavaScript is Awesome!
 
+string1 = () => 'React is Awesome!';
+console.log(string1());
+// React is Awesome!
+
+string1 = () => 'Node is cool!';
+console.log(string1());
+
+string1 = () => 37;
+console.log(string1());
+// 37
+
+let product2 = (num1 = 2, num2 = 3) => num1 * num2;
+
+let product3 = (num1 = 2, num2 = 3) => product2(num1, num2);
+
+console.log(product3());
+
+console.log(product3(9, 3));
+// 27
+
+console.log(product3(11, 4));
+// 44
+
+console.log(product3(.5, 44));
+// 22
+
+let numSquared = (num1 = 5) => Math.pow(num1, 2);
+console.log(numSquared());
+// 25
+
+console.log(numSquared(9));
+// 81
+
+console.log(`${numSquared(10)} is the output.`);
+// 100 is the output
+
+if (robots[2] == 'Mellon-Tech'){
+    let robot1 = robots.map(function(robot2){
+        return robot2;
+    })
+    console.log(robot1);
+    // ['Hank-44', 'Warren-21', 'Mellon-Tech', 'Eggplant-Head']
+}
+
+if (robots[3] == 'Eggplant-Head'){
+    cortex.friends.forEach(function(cortex1){
+        console.log(cortex1);
+        // N. Ginn
+        // Dingodile
+        // Tiny Tiger
+        // Nitrous Oxide
+    })
+}
+
+if (cortex.friends == 'Dingodile'){
+    let cortex1 = cortex.friends.forEach(function(cortex2){
+        return cortex2;
+    })
+    console.log(cortex1);
+    // No return
+}
+
+console.log(hammerHeadCharacters[1].name == 'Hammerhead');
+// false
+console.log(hammerHeadCharacters[0].name == 'Hammerhead');
+// true
+
 
 
 
