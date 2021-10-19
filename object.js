@@ -1012,6 +1012,98 @@ evenNumberTest(9);
 evenNumberTest(10);
 // 10 is an odd number.
 
+let hh3 = 91;
+
+console.log(hh3 % 10);
+// 1
+console.log(hh3);
+// 91
+
+console.log(hh3 / 10);
+// 9.1
+
+console.log(9.1 / 10);
+// .91
+
+evenNumberTest(21);
+// 21 is an odd number.
+
+evenNumberTest(37);
+// 37 is an odd number
+
+
+if(robotCharacters[1].paintColor == 'Gray'){
+    for (let hh1 = 0; hh1 < robotCharacters.length; hh1++){
+         let hh2 = robotCharacters[hh1].name.charAt(0);
+         console.log(hh2);
+         // H
+         // W
+         // M
+         // E
+         
+    }
+}
+
+console.log(robots[2].indexOf('Tech'));
+// 7
+console.log(robots[2].substring(0, robots[2].length));
+// Mellon-Tech
+console.log(robots[2].substring(0, robots[2].length - 1));
+// Mellon-Tec
+
+const there1 = ['there', 'therefore', 'theranos'];
+
+
+
+
+console.log('Timber-Tron'.indexOf('Timber') == 0);
+// true
+
+if (crashBandicoot[0] == 'Crash Bandicoot'){
+    let crash2 = 'Crash Bandicoot';
+    let crash1 = 'Crash';
+    while (crash1.indexOf(crash2) != 0){
+           crash2 = crash2.substring(0, crash2.length - 1);
+
+    }
+    console.log(crash2);
+}
+
+console.log(cortex.friends[1]);
+// Dingodile
+console.log(there1[0]);
+// there
+
+if(cortex.friends[1] == 'Dingodile'){
+    let prefix = there1[0];
+    for (let hh1 = 1; hh1 < there1.length; hh1++){
+        let hh2 = there1[hh1];
+        while (hh2.indexOf(prefix) != 0){
+            prefix = prefix.substring(0, prefix.length - 1);
+            if (prefix.length == 0) console.log('No Common Prefix');
+        }
+    }
+    console.log(prefix);
+    // ther
+}
+
+function longestCommonPrefix(array1){
+    if (array1.length == 0) console.log(`${array1} is empty.`)
+    let prefix = array1[0];
+    for (let hh1 = 1; hh1 < array1.length; hh1++){
+        let hh2 = array1[hh1];
+        while (hh2.indexOf(prefix) != 0){
+            prefix = prefix.substring(0, prefix.length - 1);
+            if (prefix.length == 0) console.log('no common prefix');
+        }
+    }
+    console.log(prefix);
+}
+
+longestCommonPrefix(there1);
+// ther
+
+
 
 
 
