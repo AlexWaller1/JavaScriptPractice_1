@@ -980,7 +980,37 @@ numCubed(2);
 numCubed(.5);
 // 0.125
 
+console.log(Math.max(3, 3));
+// 3
 
+let maxNumber = (num1 = 0, num2 = 0) => console.log(`${Math.max(num1, num2)}
+is the bigger number.`);
+
+maxNumber();
+// 0 is the bigger number
+
+maxNumber(2, 3);
+// 3 is the bigger number
+
+// maxNumbers('2', 7);
+// errored out with string
+
+function evenNumberTest(num1 = 2){
+    if (num1 % 2 == 0){
+        console.log(`${num1} is an even number.`);
+    }
+    else
+        console.log(`${num1} is an odd number.`);
+}
+
+evenNumberTest();
+// 2 is an even number.
+
+evenNumberTest(9);
+// 9 is an odd number.
+
+evenNumberTest(10);
+// 10 is an odd number.
 
 
 
