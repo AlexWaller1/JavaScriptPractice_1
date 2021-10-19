@@ -940,6 +940,48 @@ roboGreeting('Mellon-Tech');
 roboGreeting('Eggplant-Head');
 // Hi, Eggplant-Head ...4
 
+let numCubed = (num1 = 3) => Math.pow(num1, 3);
+
+console.log(numCubed());
+// 27
+
+console.log(numCubed(4));
+// 64
+
+console.log(numCubed(5));
+// 125
+
+console.log(numCubed(6));
+// 216
+
+console.log(numCubed(7));
+// 343
+
+console.log(numCubed(8));
+// 512
+
+console.log(numCubed(9));
+// 729
+
+console.log(numCubed(10));
+// 1000
+
+console.log(numCubed(11));
+// 1331
+
+numCubed = (num1 = 3) => console.log(Math.pow(num1, 3));
+
+numCubed();
+// 27
+
+numCubed(2);
+// 8
+
+numCubed(.5);
+// 0.125
+
+
+
 
 
 
