@@ -1194,6 +1194,37 @@ if (robotCharacters[3].paintColor == 'Light Blue and Orange'){
     // 2 Gray
 }
 
+if (cortex.friends[0] == 'N. Ginn'){
+    let robot1 = robots.map(function(robot2){
+        return robot2;
+    })
+    console.log(robot1);
+    // ['Hank-44', 'Warren-21', 'Mellon-Tech','Eggplant-Head']
+}
+
+if (cortex.friends[1] == 'Dingodile'){
+    robots.map(function(robot2){
+        console.log(robot2);
+        // Hank-44
+        // Warren-21
+        // Mellon-Tech
+        // Eggplant-Head
+    })
+}
+
+console.log(bandicoot.friends);
+// ['Spyro', 'Coco', 'Shifty', 'King Chicken']
+
+if (bandicoot.friends === 'King Chicken'){
+    let crash1 = bandicoot.friends.filter(function(crash2){
+        return crash2 == 'King Chicken';
+    });
+    console.log(crash1);
+}
+
+console.log(bandicoot);
+console.log(bandicoot.species);
+// Bandicoot
 
 
 
