@@ -1167,6 +1167,10 @@ isPalindrome('ribbon');
 // ribbon is not a palindrome
 // ribbon is a palindrome
 // will have to look into this
+isPalindrome('RoGue');
+// rogue is not a palindrome
+isPalindrome('timber');
+
 
 
 
