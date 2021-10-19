@@ -3,6 +3,10 @@ console.log("Greetings, Mars.");
 const robots = ['Hank-44', 'Warren-21', 'Mellon-Tech',
 'Eggplant-Head'];
 
+const timberTron = ['Timber-Io', 'Timber Technoid', 'Timber_Git'];
+
+const emptyArray = [];
+
 console.log(robots);
 
 const hammerHead = ['Hammerhead', 'Geometry Man', 'Taylor', 
@@ -1102,6 +1106,12 @@ function longestCommonPrefix(array1){
 
 longestCommonPrefix(there1);
 // ther
+longestCommonPrefix(timberTron);
+// Timber
+longestCommonPrefix(emptyArray);
+// is empty.
+longestCommonPrefix(robots);
+// no common prefix
 
 
 
