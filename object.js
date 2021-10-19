@@ -1215,16 +1215,20 @@ if (cortex.friends[1] == 'Dingodile'){
 console.log(bandicoot.friends);
 // ['Spyro', 'Coco', 'Shifty', 'King Chicken']
 
-if (bandicoot.friends === 'King Chicken'){
+if (bandicoot.friends[3] === 'King Chicken'){
     let crash1 = bandicoot.friends.filter(function(crash2){
         return crash2 == 'King Chicken';
-    });
+    }).map(function(crash3){
+        return crash3;
+    })
     console.log(crash1);
+    // ['King Chicken']
+    
 }
 
 console.log(bandicoot);
 console.log(bandicoot.species);
-// Bandicoot
+// Bandicoo
 
 
 
