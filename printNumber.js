@@ -15,3 +15,5 @@ console.log(document.querySelector("h1"));
 // multiple element
 console.log(document.querySelectorAll('.number'));
 // NodeList(3) [li.number, li.number, li.number]
+console.log(document.getElementsByClassName('number'));
+// HTMLCollection(3) [li.number, li.number, li.number]
