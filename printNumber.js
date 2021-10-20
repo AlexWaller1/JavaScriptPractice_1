@@ -17,3 +17,10 @@ console.log(document.querySelectorAll('.number'));
 // NodeList(3) [li.number, li.number, li.number]
 console.log(document.getElementsByClassName('number'));
 // HTMLCollection(3) [li.number, li.number, li.number]
+console.log(document.getElementsByTagName('li'));
+// HTMLCollection(3) [li.number, li.number, li.number]
+
+const numbers1 = document.querySelectorAll('.number');
+
+numbers1.forEach((number) => console.log(number));
+// prints out each HTML element of the number class to the console
