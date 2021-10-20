@@ -1228,7 +1228,20 @@ if (bandicoot.friends[3] === 'King Chicken'){
 
 console.log(bandicoot);
 console.log(bandicoot.species);
-// Bandicoo
+// Bandicoot
+
+let sum2 = (num1 = 6, num2 = 5) => console.log(num1 + num2);
+
+sum2();
+// 11
+sum2(4);
+// 9
+sum2(3, 4);
+// 7
+
+
+
+
 
 
 
