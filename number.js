@@ -1,5 +1,6 @@
-// Constructor
-function printNumber(number){
-    this.number = number;
+// Class
+class number {
+    constructor(num1) {
+        this.num1 = num1;
+    }
 }
-// Instantiate an object
