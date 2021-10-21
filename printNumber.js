@@ -41,7 +41,26 @@ const ul = document.querySelector('.numbers');
 // ul.lastElementChild.innerHTML = '<h1>Hi, Beezer!</h1>';
 // will change the content and HTML element of the selected element
 
+const numberInput = document.querySelector('.numbers');
+
 const button1 = document.getElementById('numbers-button');
 button1.style.background = 'green';
 // turns the button green
-button1.addEventListener('click');
+button1.addEventListener('click' , (e) => {
+    // 'mouseover', 'mouseout' are other event actions
+    e.preventDefault();
+    console.log(e.target);
+    // will print HTML element attached to the eventListener to
+    // the console
+    console.log(e.target.id);
+    // will print id of HTML element attached to eventListener
+    document.querySelector('.numbers').lastElementChild
+    .innerHTML = 'Number 4';
+});
+
+numberForm.addEventListener('submit', onSubmit);
+
+function onSubmit(e) {
+    e.preventDefault();
+    console.log(numberInput.value);
+}
