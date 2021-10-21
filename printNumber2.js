@@ -44,3 +44,7 @@ let today = new Date();
 let date2 = `${today.getMonth()+1}-${today.getDate()}-${today.getFullYear()}`;
 console.log(date2);
 // 10-21-2021
+
+let today2 = new Date();
+console.log(today2);
+// definitely best way to do this
