@@ -6,6 +6,10 @@ const numberList = document.querySelector('#numbers');
 console.log(numbersForm);
 
 
+
+
+
+
 numbersForm.addEventListener('submit', onSubmit);
 
 function onSubmit(e) {
@@ -27,3 +31,16 @@ function onSubmit(e) {
     }
        
 }
+
+
+
+
+let date = new Date().getFullYear();
+console.log(date);
+// 2021
+
+
+let today = new Date();
+let date2 = `${today.getMonth()+1}-${today.getDate()}-${today.getFullYear()}`;
+console.log(date2);
+// 10-21-2021
