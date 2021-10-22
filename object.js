@@ -1341,6 +1341,23 @@ reverseString('Beezer');
 reverseString('Bodhi');
 // ihdoB
 
+console.log(robots[2]);
+// Mellon-Tech
+
+if(robots[2] == 'Mellon-Tech'){
+    for (let hh1 = 0; hh1 < robots.length; hh1++){
+         
+        console.log(reverseString(robots[hh1]));
+        // daeH-tnalpggE
+        // undefined
+        // 44-knaH
+        // undefined
+        // hceT-nolleM
+        // undefined
+        // 12-nerraW
+    }
+}
+
 
 
 
