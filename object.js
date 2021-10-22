@@ -1358,6 +1358,33 @@ if(robots[2] == 'Mellon-Tech'){
     }
 }
 
+console.log(robots[2].length);
+// 11
+
+console.log(cortex.friends);
+
+if (cortex.friends[3] == 'Tiny Tiger'){
+    let hh1 = 0;
+    while(hh1 < cortex.friends.length){
+        console.log(cortex.friends[hh1]);
+        hh1++;
+        // Dingodile
+        // N. Ginn
+        // Nitrous Oxide
+        // Tiny Tiger
+    }
+}
+
+if (cortex.friends[2] == 'Nitrous Oxide'){
+    let cortex1 = cortex.friends.filter(function(cortex2){
+        return cortex2 == 'Nitrous Oxide';
+    }).map(function(cortex3){
+        return cortex3;
+    })
+    console.log(cortex1);
+    // ['Nitrous Oxide']
+}
+
 
 
 
