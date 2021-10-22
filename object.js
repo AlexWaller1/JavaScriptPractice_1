@@ -1385,6 +1385,25 @@ if (cortex.friends[2] == 'Nitrous Oxide'){
     // ['Nitrous Oxide']
 }
 
+console.log(cortex.friends.length);
+// 4
+
+console.log(cortex.friends[2].length);
+// 13
+
+if (cortex.friends[2].length === 13){
+    let nitrousOxide = cortex.friends[2];
+    nitrousOxide = nitrousOxide.split('');
+    console.log(nitrousOxide);
+    // ['N', 'i', 't', 'r', 'o', 'u', 's', ' ', 'O', 'x', 'i', 'd', 'e']
+    nitrousOxide = nitrousOxide.reverse();
+    console.log(nitrousOxide);
+    // ['e', 'd', 'i', 'x', 'O', ' ', 's', 'u', 'o', 'r', 't', 'i', 'N']
+    nitrousOxide = nitrousOxide.join('');
+    console.log(nitrousOxide);
+    // edixO suortiN
+}
+
 
 
 
