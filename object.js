@@ -1271,6 +1271,29 @@ console.log(robots);
 // ['Eggplant-Head', 'Hank-44', 'Mellon-Tech', 'Warren-21']
 console.log(robots.indexOf('Hank-44'));
 // 1
+console.log(robots.pop(robots[3]));
+// Warren-21
+console.log(robots);
+// ['Eggplant-Head', 'Hank-44', 'Mellon-Tech']
+// Warren-21 removed from array
+robots.push('Warren-21');
+console.log(robots);
+// ['Eggplant-Head', 'Hank-44', 'Mellon-Tech', 'Warren-21']
+
+if (crashBandicoot[2] == 'Ripper Roo'){
+    let numbers = [1, 2, 3, 4];
+    let numbers3 = [];
+    console.log(numbers);
+    // [1, 2, 3, 4]
+    for (let hh1 = numbers.length - 1; hh1 >= 0; hh1--){
+        
+        numbers.pop(numbers[hh1]);
+        numbers3.push(numbers[hh1]);
+        
+    }
+    console.log(numbers3);
+    // [undefined, undefined, undefined, undefined]
+}
 
 
 
