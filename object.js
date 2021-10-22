@@ -1239,7 +1239,15 @@ sum2(4);
 sum2(3, 4);
 // 7
 
+console.log(cortex.friends[1]);
 
+if (cortex.friends[1] == 'Dingodile'){
+    let crash1 = cortex.friends.sort(function(crash2){
+          return crash2;
+    })
+    console.log(crash1);
+    // ['N. Ginn', 'Dingodile', 'Tiny Tiger', 'Nitrous Oxide']
+}
 
 
 

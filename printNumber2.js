@@ -1,4 +1,4 @@
-const numbersForm = document.querySelector('#numbers-form');
+const numbersForm = document.querySelector('#numbers-button');
 const numberInput1 = document.querySelector('#number');
 const msg = document.querySelector('.msg');
 const numberList = document.querySelector('#numbers');
@@ -10,13 +10,13 @@ console.log(numbersForm);
 
 
 
-numbersForm.addEventListener('submit', onSubmit);
+numbersForm.addEventListener('click', onSubmit);
 
 function onSubmit(e) {
-    e.preventDefault();
+   // e.preventDefault();
     console.log(numberInput1.value);
 
-    if (numberInput1 === '') {
+    if (numberInput1.value.trim() === '') {
         msg.innerHTML = 'Please Fill Out Form.';
     }
     else {
@@ -48,3 +48,8 @@ console.log(date2);
 let today2 = new Date();
 console.log(today2);
 // definitely best way to do this
+
+let bodhi = 'bodhi';
+console.log(bodhi);
+bodhi = bodhi.toUpperCase();
+console.log(bodhi);
