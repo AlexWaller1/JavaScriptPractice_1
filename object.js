@@ -1253,6 +1253,24 @@ console.log(cortex.friends.sort());
 // ['Dingodile', 'N. Ginn', 'Nitrous Oxide', 'Tiny Tiger']
 console.log(robots.sort());
 // ['Eggplant-Head', 'Hank-44', 'Mellon-Tech', 'Warren-21']
+console.log(robots[2]);
+// Mellon-Tech
+
+// let sortMachine = (string1, string2) => console.log(sort(string1, string2));
+
+// sortMachine('orange', 'apple')
+
+console.log(robots.includes('Mellon-Tech'));
+// true
+console.log(robots.includes('Bender'));
+// false
+console.log(robots.concat(1, 2));
+// interesting, it added 1 and 2 to the array as elements
+// ['Eggplant-Head', 'Hank-44', 'Mellon-Tech, 'Warren-21, 1, 2]
+console.log(robots);
+// ['Eggplant-Head', 'Hank-44', 'Mellon-Tech', 'Warren-21']
+console.log(robots.indexOf('Hank-44'));
+// 1
 
 
 
