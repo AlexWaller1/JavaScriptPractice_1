@@ -1404,6 +1404,63 @@ if (cortex.friends[2].length === 13){
     // edixO suortiN
 }
 
+let maxNumber2 = (num1 = 2, num3 = 4) => console.log(`The max number is ${Math.max(num1, num3)}`);
+
+maxNumber2();
+// The max number is 4
+maxNumber2(23.5, 23);
+// The max number is 23.5
+console.log(Math.min(24, 25));
+// 24
+console.log(Math.round(24.6));
+// 25
+let decimalNums = [23.4, 37.9, 45.5, 57.24, 96.7];
+
+if (decimalNums[0] == 23.4){
+    for (let hh1 = 0; hh1 < decimalNums.length; hh1++){
+        let returnNum = Math.round(decimalNums[hh1]);
+        console.log(returnNum);
+        // 23
+        // 38
+        // 46
+        // 57
+        // 97
+    }
+}
+
+let num34 = 37;
+num34 = num34.toString();
+num34 = num34.split('');
+console.log(num34);
+// ['3', '7']
+num34 = num34.reverse();
+console.log(num34);
+// ['7', '3']
+num34 = num34.join('');
+console.log(num34);
+// 73
+let numberT = parseInt(num34, 10);
+console.log(numberT);
+
+function reverseNumber(num1 = 37){
+    num1 = num1.toString();
+    num1 = num1.split('');
+    num1 = num1.reverse();
+    num1 = num1.join('');
+    let num2 = parseInt(num1, 10);
+    console.log(num2);
+
+
+}
+
+reverseNumber();
+// 73
+reverseNumber(57689);
+// 98675
+reverseNumber(1056);
+// 6501
+
+
 
 
 
