@@ -1316,6 +1316,17 @@ console.log(bandicoot.friends);
 console.log(bandicoot.friends.reverse());
 // ['King Chicken', 'Shifty', 'Coco', 'Spyro']
 
+let string44 = 'X-Men';
+let xMen = string44.split('');
+console.log(xMen);
+// ['X', '-', 'M', 'e', 'n']
+xMen = xMen.reverse();
+console.log(xMen);
+// ['n', 'e', 'M', '-', 'X']
+xMen = xMen.join('');
+console.log(xMen);
+// neM-X
+
 
 
 
