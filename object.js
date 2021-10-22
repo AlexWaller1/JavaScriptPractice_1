@@ -1327,6 +1327,20 @@ xMen = xMen.join('');
 console.log(xMen);
 // neM-X
 
+function reverseString(string1 = 'Chipper'){
+    string1 = string1.split('');
+    string1 = string1.reverse();
+    string1 = string1.join('');
+    console.log(string1);
+}
+
+reverseString();
+// reppihC
+reverseString('Beezer');
+// rezeeB
+reverseString('Bodhi');
+// ihdoB
+
 
 
 
