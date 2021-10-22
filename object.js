@@ -1249,6 +1249,11 @@ if (cortex.friends[1] == 'Dingodile'){
     // ['N. Ginn', 'Dingodile', 'Tiny Tiger', 'Nitrous Oxide']
 }
 
+console.log(cortex.friends.sort());
+// ['Dingodile', 'N. Ginn', 'Nitrous Oxide', 'Tiny Tiger']
+console.log(robots.sort());
+// ['Eggplant-Head', 'Hank-44', 'Mellon-Tech', 'Warren-21']
+
 
 
 
