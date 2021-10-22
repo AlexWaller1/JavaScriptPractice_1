@@ -1297,6 +1297,8 @@ if (crashBandicoot[2] == 'Ripper Roo'){
 
 if (bandicoot.friends[0] == 'Spyro'){
     console.log(bandicoot.friends);
+    console.log(bandicoot.friends.length - 1);
+    // 3
     for (let hh1 = bandicoot.friends.length - 1; hh1 >= 0; hh1--){
         bandicoot.friends.pop(bandicoot.friends[hh1]);
         bandicoot.friends.push(bandicoot.friends[hh1]);
@@ -1311,6 +1313,8 @@ bandicoot.friends.pop(bandicoot.friends[3]);
 bandicoot.friends.push('King Chicken');
 console.log(bandicoot.friends);
 // ['Spyro, 'Coco', 'Shifty', 'King Chicken']
+console.log(bandicoot.friends.reverse());
+// ['King Chicken', 'Shifty', 'Coco', 'Spyro']
 
 
 
