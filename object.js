@@ -1479,6 +1479,10 @@ console.log(tinyTiger);
 let tinyTiger1 = cortex.friends[3].startsWith('T');
 console.log(tinyTiger1);
 // true
+let tigerSubString = cortex.friends[3].substring(4, cortex.friends[3].length);
+console.log(tigerSubString);
+// Tiger
+
 
 
 
