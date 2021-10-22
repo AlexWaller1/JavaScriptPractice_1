@@ -1295,6 +1295,25 @@ if (crashBandicoot[2] == 'Ripper Roo'){
     // [undefined, undefined, undefined, undefined]
 }
 
+if (bandicoot.friends[0] == 'Spyro'){
+    console.log(bandicoot.friends);
+    for (let hh1 = bandicoot.friends.length - 1; hh1 >= 0; hh1--){
+        bandicoot.friends.pop(bandicoot.friends[hh1]);
+        bandicoot.friends.push(bandicoot.friends[hh1]);
+    }
+    console.log(bandicoot.friends);
+    // ['Spyro, 'Coco', 'Shifty', 'Spyro']
+}
+
+console.log(bandicoot.friends);
+// ['Spyro, 'Coco', 'Shifty', 'Spyro']
+bandicoot.friends.pop(bandicoot.friends[3]);
+bandicoot.friends.push('King Chicken');
+console.log(bandicoot.friends);
+// ['Spyro, 'Coco', 'Shifty', 'King Chicken']
+
+
+
 
 
 
