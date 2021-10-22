@@ -1459,6 +1459,26 @@ reverseNumber(57689);
 // 98675
 reverseNumber(1056);
 // 6501
+reverseNumber(956480);
+// 84659
+reverseNumber(90);
+// 9
+
+let mellonTech = robots[2].replace('-', '===');
+console.log(mellonTech);
+// Mellon===Tech
+
+let tinyTiger = cortex.friends[3].replace(' ', '=====');
+console.log(tinyTiger);
+// Tiny=====Tiger
+
+tinyTiger = tinyTiger.startsWith('t');
+console.log(tinyTiger);
+// false
+
+let tinyTiger1 = cortex.friends[3].startsWith('T');
+console.log(tinyTiger1);
+// true
 
 
 
