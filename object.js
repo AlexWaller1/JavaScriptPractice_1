@@ -1526,6 +1526,27 @@ reverseNumber3(9074);
 reverseNumber3(34975);
 // 57943
 
+let testString = '3409';
+testString = testString.split('');
+console.log(testString);
+// ['3', '4', '0', '9']
+console.log(cortex.friends[2]);
+// Nitrous Oxide
+
+let powerOfNumber = (num1 = 2, num2 = 2) => console.log(Math.pow(num1, num2));
+powerOfNumber();
+// 4
+powerOfNumber(3, 4);
+// 81
+powerOfNumber(5, 5);
+// 3125
+powerOfNumber(6, 4);
+// 1296
+powerOfNumber(7, 9);
+// 40353607
+
+
+
 
 
 
