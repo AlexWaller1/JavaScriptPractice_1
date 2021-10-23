@@ -1482,8 +1482,49 @@ console.log(tinyTiger1);
 let tigerSubString = cortex.friends[3].substring(4, cortex.friends[3].length);
 console.log(tigerSubString);
 // Tiger
+let nitrousOxideString = cortex.friends[2].replace(' ', '####');
+console.log(nitrousOxideString);
+// Nitrous####Oxide
+console.log(crashBandicoot[3]);
+// Spyro
+if (crashBandicoot[3] == 'Spyro'){
+    let hh1 = 0;
+    for (; hh1 < robots.length; hh1++){
+        console.log(robots[hh1]);
+        // Eggplant-Head
+        // Hank-44
+        // Mellon-Tech
+        // Warren-21
+    }
+}
 
+console.log(robots[3]);
+// Warren-21
+let warren21 = robots[3].replace('-', '====');
+console.log(warren21);
+// Warren====21
+let number4 = 37;
+console.log(number4);
+// 37 as an integer
+console.log(number4.toString());
+// 37 as a string
+function reverseNumber3(num1=459){
+    numString = num1.toString();
+    numString = numString.split('');
+    numString = numString.reverse();
+    numString = numString.join('');
+    let newNumber = parseInt(numString);
+    console.log(newNumber);
+}
 
+reverseNumber3();
+// 954
+reverseNumber3(397);
+// 793
+reverseNumber3(9074);
+// 4709
+reverseNumber3(34975);
+// 57943
 
 
 
