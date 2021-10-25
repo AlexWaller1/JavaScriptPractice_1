@@ -1545,6 +1545,45 @@ powerOfNumber(6, 4);
 powerOfNumber(7, 9);
 // 40353607
 
+console.log(bandicoot.friends[3].concat(' Nitro Cart'));
+// Spyro Nitro Cart
+console.log(bandicoot.friends[2]);
+// Coco
+
+if (bandicoot.friends[2] === 'Coco'){
+    let crash1 = bandicoot.friends.filter(function(crash2){
+        return crash2 == 'King Chicken';
+    }).map(function(crash3){
+        return crash3;
+    })
+    console.log(crash1);
+    //['King Chicken']
+}
+
+console.log(bandicoot.friends);
+// ['King Chicken', 'Shifty', 'Coco', 'Spyro']
+bandicoot.friends.reverse();
+console.log(bandicoot.friends);
+// ['Spyro', 'Coco', 'Shifty', 'King Chicken']
+if (bandicoot.friends[3] == 'King Chicken'){
+     bandicoot.friends.forEach(function(crash2){
+        return crash2;
+    })
+    console.log(crash2);
+    // King Chicken
+}
+
+if (bandicoot.friends[1] == 'Shifty'){
+    bandicoot.friends.forEach(function(crash1){
+        console.log(crash1);
+    })
+}
+
+
+
+
+
+
 
 
 
